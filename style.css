@@ -273,3 +273,7 @@ main .card {
   color: black;
   font-weight: 600;
 }
+
+.header {
+  box-shadow: 5px 5px 5px #aaa;
+}

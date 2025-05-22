@@ -6,6 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Admin Board</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
@@ -16,22 +20,22 @@
 
       <div class="first-bar">
         <form>
-          <img src="images/magnify.png" alt="magnifying icon">
+          <img src="images/magnify.png" alt="magnifying icon" class="symbol-icon">
           <input type="search" name="search-bar" id="search-bar">
         </form>
 
         <div class="user-info">
-          <img src="images/bell-ring-outline.png" alt="ringing bell icon">
-          <img src="images/business-man.png" alt="business man icon" class="user-icon">
+          <img src="images/bell-ring-outline.png" alt="ringing bell icon" class="symbol-icon">
+          <img src="images/girl.png" alt="short hair woman icon" class="user-icon">
           <p>Morgan Oakley</p>
         </div>
       </div>
 
       <div class="second-bar">
         <div class="greet">
-          <img src="images/business-man.png" alt="businessman icon">
+          <img src="images/girl.png" alt="short hair woman icon">
           <div class="info">
-            <p class="salute">Hi there</p>
+            <p class="salute">Hi there,</p>
             <p class="user-name">Morgan Oakley (@morgan)</p>
           </div>
         </div>
@@ -73,65 +77,80 @@
     <main>
       <section class="projects">
         <h2>Your Projects</h2>
-        <div class="cards-wrapper">
+        <div class="main-cards-wrapper">
           <div class="card">
-            <h3>Super Cool Project</h3>
-            <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.
-            </p>
+            <div class="card-info-wrapper">
+              <h3>Super Cool Project</h3>
+              <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan
+                nec.
+              </p>
+            </div>
             <div class="reactions-wrapper">
               <img src="images/star-plus.png" alt="star add icon" class="star">
-              <img src="images/star-plus.png" alt="eye add icon" class="watch">
+              <img src="images/eye-plus.png" alt="eye add icon" class="watch">
               <img src="images/source-fork.png" alt="fork icon">
             </div>
           </div>
           <div class="card">
-            <h3>Less Cool Project</h3>
-            <p>Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt consectetur sapien
-              et,
-              facilisis dolor. Duis sem purus, dignissim ut sapien in, varius pellentesque lacus.</p>
+            <div class="card-info-wrapper">
+              <h3>Less Cool Project</h3>
+              <p>Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt consectetur sapien
+                et,
+                facilisis dolor. Duis sem purus, dignissim ut sapien in, varius pellentesque lacus.</p>
+            </div>
             <div class="reactions-wrapper">
               <img src="images/star-plus.png" alt="star add icon" class="star">
-              <img src="images/star-plus.png" alt="eye add icon" class="watch">
+              <img src="images/eye-plus.png" alt="eye add icon" class="watch">
               <img src="images/source-fork.png" alt="fork icon">
             </div>
           </div>
           <div class="card">
-            <h3>Impossible App</h3>
-            <p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id.</p>
+            <div class="card-info-wrapper">
+              <h3>Impossible App</h3>
+              <p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id.</p>
+            </div>
             <div class="reactions-wrapper">
               <img src="images/star-plus.png" alt="star add icon" class="star">
-              <img src="images/star-plus.png" alt="eye add icon" class="watch">
+              <img src="images/eye-plus.png" alt="eye add icon" class="watch">
               <img src="images/source-fork.png" alt="fork icon">
             </div>
           </div>
           <div class="card">
-            <h3>Easy Peasy App</h3>
-            <p>Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan aliquam. Curabitur
-              dignissim nisi int tortor commodo, ac bibendum magna tincidunt.</p>
+            <div class="card-info-wrapper">
+              <h3>Easy Peasy App</h3>
+              <p>Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan aliquam. Curabitur
+                dignissim nisi int tortor commodo, ac bibendum magna tincidunt.</p>
+            </div>
             <div class="reactions-wrapper">
               <img src="images/star-plus.png" alt="star add icon" class="star">
-              <img src="images/star-plus.png" alt="eye add icon" class="watch">
+              <img src="images/eye-plus.png" alt="eye add icon" class="watch">
               <img src="images/source-fork.png" alt="fork icon">
             </div>
           </div>
           <div class="card">
-            <h3>Ad Blocker</h3>
-            <p>Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendrerit felis. Aliquam sed
-              malesuada eros.</p>
+            <div class="card-info-wrapper">
+              <h3>Ad Blocker</h3>
+              <p>Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendrerit felis. Aliquam
+                sed
+                malesuada eros.</p>
+            </div>
             <div class="reactions-wrapper">
               <img src="images/star-plus.png" alt="star add icon" class="star">
-              <img src="images/star-plus.png" alt="eye add icon" class="watch">
+              <img src="images/eye-plus.png" alt="eye add icon" class="watch">
               <img src="images/source-fork.png" alt="fork icon">
             </div>
           </div>
           <div class="card">
-            <h3>Money Maker</h3>
-            <p>Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien, ac scelerisque tortor purus
-              sit amet ex.
-              Pellentesque mollis nec sem vel aliquam.</p>
+            <div class="card-info-wrapper">
+              <h3>Money Maker</h3>
+              <p>Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien, ac scelerisque tortor
+                purus
+                sit amet ex.
+                Pellentesque mollis nec sem vel aliquam.</p>
+            </div>
             <div class="reactions-wrapper">
               <img src="images/star-plus.png" alt="star add icon" class="star">
-              <img src="images/star-plus.png" alt="eye add icon" class="watch">
+              <img src="images/eye-plus.png" alt="eye add icon" class="watch">
               <img src="images/source-fork.png" alt="fork icon">
             </div>
           </div>
@@ -139,7 +158,7 @@
 
       <section class="announcements">
         <h2>Announcements</h2>
-        <ul class="announcement-wrapper">
+        <ul class="announcement-wrapper card">
           <li>
             <h4>Site Maintenance</h4>
             <p>Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec hendrerit sodales congue...</p>
@@ -159,30 +178,30 @@
 
       <section class="trending">
         <h2>Trending</h2>
-        <ul class="trending-wrapper">
+        <ul class="trending-wrapper card">
           <li>
-            <img src="" alt="">
+            <img src="images/boy.png" alt="white collar man icon">
             <div class="account-info">
               <p class="account-name">@tegan</p>
               <p class="account-detail">World Peace Builder</p>
             </div>
           </li>
           <li>
-            <img src="" alt="">
+            <img src="images/girl.png" alt="short hair woman icon">
             <div class="account-info">
               <p class="account-name">@morgan</p>
               <p class="account-detail">Super Cool Project</p>
             </div>
           </li>
           <li>
-            <img src="" alt="">
+            <img src="images/woman.png" alt="long hair woman icon">
             <div class="account-info">
               <p class="account-name">@kendall</p>
               <p class="account-detail">Life Changing App</p>
             </div>
           </li>
           <li>
-            <img src="" alt="">
+            <img src="images/man.png" alt=" blue collar man icon">
             <div class="account-info">
               <p class="account-name">@alex</p>
               <p class="account-detail">No Traffic Maker</p>

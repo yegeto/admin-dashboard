@@ -276,4 +276,5 @@ main .card {
 
 .header {
   box-shadow: 5px 5px 5px #aaa;
+  z-index: 0;
 }
